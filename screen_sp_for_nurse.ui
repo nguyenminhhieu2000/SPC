@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1921</width>
+     <height>1081</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="setting">
+    <attribute name="title">
+     <string>Setting</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="records">
+    <attribute name="title">
+     <string>Records</string>
+    </attribute>
+    <widget class="QPushButton" name="start">
+     <property name="geometry">
+      <rect>
+       <x>1630</x>
+       <y>40</y>
+       <width>271</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Start</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="stop">
+     <property name="geometry">
+      <rect>
+       <x>1630</x>
+       <y>430</y>
+       <width>271</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Stop</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exit">
+     <property name="geometry">
+      <rect>
+       <x>1640</x>
+       <y>910</y>
+       <width>271</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="log">
+     <property name="geometry">
+      <rect>
+       <x>1630</x>
+       <y>130</y>
+       <width>271</width>
+       <height>281</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>1581</width>
+       <height>941</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="data_sharing">
+    <attribute name="title">
+     <string>Data Sharing</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
