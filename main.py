@@ -6,7 +6,6 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QDialog, QApplication, QWidget
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import QThread, pyqtSignal, pyqtSlot, Qt
-from create_account import *
 import sqlite3 as lite
 import time
 
@@ -16,6 +15,8 @@ import torch
 from torch import nn as nn
 import torchvision
 from torchvision import transforms
+
+from create_account import *
 
 #config device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
